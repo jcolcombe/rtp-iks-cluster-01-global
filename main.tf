@@ -21,7 +21,7 @@ variable "clustername" {
   type = string
 }
 output "clustername" {
-        value = var.clustername 
+        value = var.clustername
 }
 variable "ippool_list" {
   type = string
@@ -267,7 +267,3 @@ variable "organization" {
 output "organization" {
         value = var.organization
 }
-
-
-
-

@@ -15,24 +15,24 @@
 #cloud_api_key_id = ""
 
 #Common workspaces
-ikswsname = "sb_iks"
-globalwsname = "sb_globalvar"
+ikswsname = "rtp_k8_iks"
+globalwsname = "dCloud_rtp_k8_globalvar"
 
- 
+
 #Configurable and to be uploaded based on sandbox env
-clustername = "sbcluster"
-ippool_list = "sbippool"
+clustername = "rtp_k8_cluster"
+ippool_list = "rtp_k8_ippool"
 
 #All these are params used in k8s policy settings
-infra_config_policy = "sbcluster_infra_config_policy"
-ip_pool_policy = "sbcluster_ip_pool_policy"
-masterip_pool_policy = "sbcluster_ip_pool_policy"
-workerip_pool_policy = "sbcluster_ip_pool_policy"
-network_pod = "sbcluster_pod"
-network_service = "sbcluster_network" 
+infra_config_policy = "rtp_k8_cluster_infra_config_policy"
+ip_pool_policy = "rtp_k8_cluster_ip_pool_policy"
+masterip_pool_policy = "rtp_k8_cluster_ip_pool_policy"
+workerip_pool_policy = "rtp_k8_cluster_ip_pool_policy"
+network_pod = "rtp_k8_cluster_pod"
+network_service = "rtp_k8_cluster_network"
 k8s_version = "1.19.5"
-k8s_version_name = "sbcluster_1.19.5"
-masterinstance = "sbcluster-master-instance"
+k8s_version_name = "rtp_k8_cluster_1.19.5"
+masterinstance = "rtp_k8_cluster-master-instance"
 mgmtcfgetcd = false
 mgmtcfglbcnt = 3
 mgmtcfgsshuser = "iksadmin"
@@ -41,8 +41,8 @@ masterdesiredsize = 1
 workergrpname = "testsjc-worker-pool"
 workerdesiredsize = 0
 masterinfraname = "masterinfranamesjc"
-infrapolname = "sbcluster_infra_config_policy"
-instancetypename = "sbcluster-master-instance"
+infrapolname = "rtp_k8_cluster_infra_config_policy"
+instancetypename = "rtp_k8_cluster-master-instance"
 #network params
 timezone = "America/New_York"
 domain_name = "demo.intra"
