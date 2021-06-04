@@ -36,11 +36,11 @@ masterinstance = "rtp_k8_cluster-master-instance"
 mgmtcfgetcd = false
 mgmtcfglbcnt = 3
 mgmtcfgsshuser = "iksadmin"
-mastergrpname = "testsjc-master-pool"
+mastergrpname = "testrtp-master-pool"
 masterdesiredsize = 1
-workergrpname = "testsjc-worker-pool"
+workergrpname = "testrtp-worker-pool"
 workerdesiredsize = 0
-masterinfraname = "masterinfranamesjc"
+masterinfraname = "masterinfranamertp"
 infrapolname = "rtp_k8_cluster_infra_config_policy"
 instancetypename = "rtp_k8_cluster-master-instance"
 #network params
