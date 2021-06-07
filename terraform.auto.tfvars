@@ -15,24 +15,24 @@
 #cloud_api_key_id = ""
 
 #Common workspaces
-ikswsname = "rtp_k8_iks"
-globalwsname = "dCloud_rtp_k8_globalvar"
+ikswsname = "rtp-iks-cluster-01"
+globalwsname = "rtp-iks-cluster-01-global"
 
 
 #Configurable and to be uploaded based on sandbox env
-clustername = "rtp_k8_ist_01"
-ippool_list = "rtp_k8_ippool"
+clustername = "rtp-iks-cluster-01"
+ippool_list = "rtp-iks-cluster-01_ippool"
 
 #All these are params used in k8s policy settings
-infra_config_policy = "rtp_k8_ist_01_infra_config_policy"
-ip_pool_policy = "rtp_k8_ist_01_ip_pool_policy"
-masterip_pool_policy = "rtp_k8_ist_01_ip_pool_policy"
-workerip_pool_policy = "rtp_k8_ist_01_ip_pool_policy"
-network_pod = "rtp_k8_ist_01_pod"
-network_service = "rtp_k8_ist_01_network"
+infra_config_policy = "rtp-iks-cluster-01_infra_config_policy"
+ip_pool_policy = "rtp-iks-cluster-01_ip_pool_policy"
+masterip_pool_policy = "rtp-iks-cluster-01_ip_pool_policy"
+workerip_pool_policy = "rtp-iks-cluster-01_ip_pool_policy"
+network_pod = "rtp-iks-cluster-01_pod"
+network_service = "rtp-iks-cluster-01_network"
 k8s_version = "1.19.5"
-k8s_version_name = "rtp_k8_ist_01_1.19.5"
-masterinstance = "rtp_k8_ist_01-master-instance"
+k8s_version_name = "rtp-iks-cluster-01_1.19.5"
+masterinstance = "rtp-iks-cluster-01-master-instance"
 mgmtcfgetcd = false
 mgmtcfglbcnt = 3
 mgmtcfgsshuser = "iksadmin"
@@ -41,8 +41,8 @@ masterdesiredsize = 1
 workergrpname = "testrtp-worker-pool"
 workerdesiredsize = 0
 masterinfraname = "masterinfranamertp"
-infrapolname = "rtp_k8_ist_01_infra_config_policy"
-instancetypename = "rtp_k8_ist_01-master-instance"
+infrapolname = "rtp-iks-cluster-01_infra_config_policy"
+instancetypename = "rtp-iks-cluster-01-master-instance"
 #network params
 timezone = "America/New_York"
 domain_name = "demo.intra"
