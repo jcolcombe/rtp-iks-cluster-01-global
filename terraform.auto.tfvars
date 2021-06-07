@@ -36,16 +36,16 @@ masterinstance = "rtp-iks-cluster-01-master-instance"
 mgmtcfgetcd = false
 mgmtcfglbcnt = 3
 mgmtcfgsshuser = "iksadmin"
-mastergrpname = "testrtp-master-pool"
+mastergrpname = "rtp-iks-cluster-01-master-pool"
 masterdesiredsize = 1
-workergrpname = "testrtp-worker-pool"
+workergrpname = "rtp-iks-cluster-01-worker-pool"
 workerdesiredsize = 0
-masterinfraname = "masterinfranamertp"
+masterinfraname = "rtp-iks-cluster-01-masterinfraname"
 infrapolname = "rtp-iks-cluster-01_infra_config_policy"
 instancetypename = "rtp-iks-cluster-01-master-instance"
 #network params
 timezone = "America/New_York"
-domain_name = "demo.intra"
+domain_name = "dcv.svpod"
 
 
 
